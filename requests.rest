@@ -1,15 +1,16 @@
-POST http://localhost:3003/signup
+#POST http://localhost:3003/signup
+POST https://loja-de-servicos-server.vercel.app/signup
 Content-Type: application/json
 
 {
     "name": "Flamarion",
     "email": "eu@email.com",
-    "password": "123456",
-    "confirmPass": "123456"
+    "password": "123456"
 }
 
 ###
-POST http://localhost:3003/login
+#POST http://localhost:3003/login
+POST https://loja-de-servicos-server.vercel.app/login
 Content-Type: application/json
 
 {
